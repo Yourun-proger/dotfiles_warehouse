@@ -22,8 +22,14 @@ set tw=79
 set smartindent
 set ignorecase
 set smartcase
+set hlsearch
+set incsearch
 set lazyredraw
 set t_Co=256
 set backspace=indent,eol,start
-let python_highight_all=1
+let python_highlight_all=1
+let cpp_highlight_all=1
+let haskell_highlight_all=1
 set showmatch
+set t_Co=256
+set foldcolumn=2
